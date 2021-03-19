@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Product Landing Page</title>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="fixed">
+            <header id="header">
+                <img  id="header-img" src="https://api.freelogodesign.org/files/7917fa5550ae412f9e8a51fde711ecdb/thumb/logo_200x200.png?v=0" alt="logo">
+                <h1 id="title">WANDERLUSTERS</h1>
+                <nav id="nav-bar">
+                    <ul>
+                        <a href="#content" class="nav-link">Destinations</a>
+                        <a href="#content2" class="nav-link">About Us</a>
+                        <a href="#packages" class="nav-link">Packages</a>
+                    </ul>
+                </nav>
+            </header>
+        </div>    
+        <main>
+            <div id="content">
+                <h3 id="destinations">Destinations</h3>
+                <p>Come with us to explore some of the world's most exotic destinations. Marvel at all the must-see spots, plus discover local color and off-the-beaten-path cultural experiences.</p>
+                <p>We craft journeys that reflect how we love to travel. We're passionate about getting to know and love other cultures, making new friends, and getting beyond day-to-day boundaries.</p>    
+            </div>
+            <div id="content2">
+                <h3>About Us</h3>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/kQa40dvhamk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>    
+            <h3>Packages</h3>
+            <div id="packages">
+                <div id="travel">
+                    <h4>A Taste of India</h4>
+                    <p>Savor India's Golden Triangle: Delhi, Agra & the Taj Mahal, then the pink city of Jaipur; plus Nepal optional extension.</p>
+                    <h5>From 1700$(Tour+Flights)</h5>
+                    <p>8 Days</p>
+                    <input type="submit" id="submit" value="Select">
+                </div>
+                <div id="travel">
+                    <h4>Best of Kenya & Tanzania Safari</h4>
+                    <p>Nairobi & the ultimate safari: 14 game drives in Ol Pejeta, Samburu, Lake Nakuru, Masai Mara, Tarangire, Lake Manyara & Ngorongoro.</p>
+                    <h5>From 6000$(Tour+Flights)</h5>
+                    <p>14 Days</p>
+                    <input type="submit" id="submit" value="Select">
+                </div>
+                <div id="travel">
+                    <h4>Costa Rica: Volcanoes, Rainforests & Beaches</h4>
+                    <p>The capital San José, spectacular Arenal and its volcano, 3 relaxing days in Playa Panama; travel on your own with flights & hotel included.</p>
+                    <h5>From 1900$(Tour+Flights)</h5>
+                    <p>7 Days</p>
+                    <input type="submit" id="submit" value="Select">
+                </div>
+            </div>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <label for="email">For a detailed offer please enter your email</label> 
+                <input type="email" name="email" id="email" placeholder="Enter a valid email adress" required>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+            <footer id="footer">
+                <ul>
+                    <li>Contact</li>
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                </ul>
+                <h6>Copyright 2021, Wanderlusters</h6>
+            </footer>
+        </main>  
+    </body>
+
+</html>        

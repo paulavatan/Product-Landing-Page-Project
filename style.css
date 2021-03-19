@@ -1,0 +1,202 @@
+html{
+    background-image: url(https://static8.depositphotos.com/1353632/1053/v/600/depositphotos_10536679-stock-illustration-planes-background.jpg);
+    background-repeat: repeat;
+    background-color: rgba(255,255,255,0.85);
+    background-blend-mode: lighten;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+}    
+
+a{
+    text-decoration: none;
+    color: black;
+}
+    
+
+#header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(138, 198, 226, 0.856);
+    padding:10px 0;
+    color: black;
+    margin: 0;
+   
+}
+
+#header-img{
+    float: left;
+    width:100px;
+    height:100px;
+    
+}
+
+#title{
+    position:relative;
+    top:13px;
+    text-align: center;
+    font-size: 2.1em;
+}
+
+#nav-bar{
+    text-align: center;
+    padding:0;
+}
+
+#nav-bar a{
+    display: inline-block;
+    width: 20%;
+    font-size: 15px;
+}
+
+#content{
+    margin-top:130px;
+    padding:20px;
+    text-align: center;
+}
+
+#content2{
+    text-align: center;
+    padding: 20px;
+}
+
+h3{
+    text-align: center;
+}
+
+#packages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#travel{
+    float:left;
+    width:27.5%;
+    height:250px;
+    border: 2px solid rgb(0, 217, 255);
+    padding: 5px;
+    margin: 30px;
+    overflow:auto;
+}
+
+#travel h4{
+    text-align: center;
+    color:rgb(231, 146, 18);
+}
+
+#travel h5{
+    color:rgb(8, 204, 41)
+}
+
+#travel p{
+    text-align: justify;
+}
+
+#travel input[type=submit] {
+    width: 50%;
+    background-color:rgb(28, 181, 241);
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}   
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #c7f0f0;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(125, 155, 236);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(37, 5, 214);
+  }
+ 
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin:auto;
+    font-size: 1.2em;
+}
+
+input[type=email]{
+    width:50%;
+    padding: 15px, 20px;
+    margin: 5px, 0;
+    display: block;
+    border: 1px solid  rgb(80, 204, 241);
+    border-radius: 3px;
+    border-style: outset;
+    font-size:20px;
+}
+
+label{
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+input[type=submit] {
+    width: 25%;
+    background-color:rgb(28, 181, 241);
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}    
+input[type=submit]:hover{
+    background-color: blueviolet;
+}
+
+#footer{
+    margin-top: 30px;
+    text-align: center;
+    padding:0;
+}
+#footer li{
+    display: inline-block;
+    width: 20%;
+    font-size: 13px;
+}
+
+@media (max-width: 700px){
+    body{
+        width:100%;
+    }
+
+    #packages{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video{
+        width:auto;
+    }
+
+    label{
+        font-size: 0.9em;
+    }
+
+    input[type=email]{
+        font-size: 10px;
+    }
+}
+
+
